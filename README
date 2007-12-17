@@ -1,0 +1,36 @@
+NAME
+    Graphics::ColorNames::EmergyC - Eco-friendly web-design color-palette.
+
+SYNOPSIS
+      require Graphics::ColorNames::EmergyC;
+
+      $NameTable = Graphics::ColorNames::EmergyC->NamesRgbTable();
+      $RgbBlack  = $NameTable->{black};
+
+DESCRIPTION
+    The Emergy-C color palette is based on the EnergyStar wattage ratings
+    for different colors. Supposedly, a display mainly using colors of this
+    palette uses on oaverage only about 3 or 4 watts more than a completely
+    black screen. White is included as an accent color, only for a small
+    proportion of the screen.
+
+SEE ALSO
+    Graphics::ColorNames
+
+    This palette comes from
+    http://ecoiron.blogspot.com/2007/01/emergy-c-low-wattage-palette.html.
+
+    EnergyStar wattage ratings for colors,
+    http://www.microtech.doe.gov/EnergyStar/info.htm.
+
+AUTHOR
+    Implemented as a plugin for Graphics::ColorNames by Robert Rothenberg
+    <rrwo at cpan.org>.
+
+    This palette was designed by Jon Doucette, <finaljon at gmail.com>.
+
+LICENSE
+    Copyright (c) 2007 Robert Rothenberg. All rights reserved. This program
+    is free software; you can redistribute it and/or modify it under the
+    same terms as Perl itself.
+
