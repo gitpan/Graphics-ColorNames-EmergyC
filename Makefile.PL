@@ -8,7 +8,7 @@ WriteMakefile
           'EXE_FILES' => [],
           'VERSION_FROM' => 'lib/Graphics/ColorNames/EmergyC.pm',
           'PREREQ_PM' => {
-                           'Test' => 0,
+                           'Test::More' => 0,
                            'Graphics::ColorNames' => '1.01'
                          }
         )

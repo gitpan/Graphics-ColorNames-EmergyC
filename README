@@ -10,9 +10,24 @@ SYNOPSIS
 DESCRIPTION
     The Emergy-C color palette is based on the EnergyStar wattage ratings
     for different colors. Supposedly, a display mainly using colors of this
-    palette uses on oaverage only about 3 or 4 watts more than a completely
+    palette uses on average only about 3 or 4 watts more than a completely
     black screen. White is included as an accent color, only for a small
     proportion of the screen.
+
+    Since it is a minimal palette, you may want to use it in conjunction
+    with other palettes.
+
+REVISION HISTORY
+    Changes since the last release
+
+    1.01   21 Dec 2007
+               - cleaned up newlines
+               - removed restriction on minimum Perl version (left it up to
+                 Graphics::ColorNames)
+               - minor changes to documentation
+               - fixed wrong requirement
+
+    More details can be found in the Changes file.
 
 SEE ALSO
     Graphics::ColorNames

@@ -5,7 +5,6 @@ my $build = Module::Build->new
      module_name => 'Graphics::ColorNames::EmergyC',
      license => 'perl',
      requires => {
-       'perl'                       => '5.6.0',
        'Graphics::ColorNames'       => 1.01,
      },
      recommends => {
